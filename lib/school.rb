@@ -2,7 +2,7 @@ require 'pry'
 
 class School
   attr_reader :name #instance method
-  attr_accessor :roster #instance method
+  #attr_accessor :roster #instance method
   
   def initialize(name)
     @roster = {}
