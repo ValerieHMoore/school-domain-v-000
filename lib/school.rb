@@ -28,14 +28,11 @@ class School
     return @roster[grade]
   end
   
-  def sort_students
+  def sort
     @roster[grade].each do |grade, students|
       students.sort
     @roster[grade]
     end
   end
   
-#   def sort
-#   @roster.sort.to_h
-# end
 end
